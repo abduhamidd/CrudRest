@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springproject.crudpagination.Service.ProductService;
 import com.springproject.crudpagination.model.Product;
 @RestController
-public class HomeController {
+public class RestControle {
 	@Autowired
 	private ProductService service;
 
